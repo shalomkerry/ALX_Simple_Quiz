@@ -7,7 +7,7 @@ function checkAnswer() {
 
   if (radio) {
     if (userAnswer === correctAnswer) {
-      report.textContent = "Correct! Well Done.";
+      report.textContent = "Correct! Well done.";
     } else {
       report.textContent = "That is incorrect. Try Again!";
     }
