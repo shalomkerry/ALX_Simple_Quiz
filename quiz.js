@@ -6,7 +6,7 @@ function checkAnswer() {
   let userAnswer = radio.value;
 
   if (radio) {
-    if (userAnswer == correctAnswer) {
+    if (userAnswer === correctAnswer) {
       report.textContent = "Correct! Well Done.";
     } else {
       report.textContent = "That is incorrect. Try Again!";
