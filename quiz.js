@@ -9,7 +9,7 @@ function checkAnswer() {
     if (userAnswer === correctAnswer) {
       report.textContent = "Correct! Well done.";
     } else {
-      report.textContent = "That is incorrect. Try Again!";
+      report.textContent = "That is incorrect. Try again!";
     }
   }
 }
