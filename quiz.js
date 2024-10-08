@@ -1,4 +1,4 @@
-const button = document.querySelector("#submit-answer");
+const button = document.getElementById("submit-answer");
 let report = document.querySelector("#feedback");
 function checkAnswer() {
   let correctAnswer = "4";
